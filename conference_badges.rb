@@ -23,8 +23,7 @@ end
 def printer(attendees)
   counter = 0
   attendees.each do |name|
-    batch_badge_creator(name)[counter]
+    puts batch_badge_creator[counter]
     counter =+ 1
   end
-  puts
 end
