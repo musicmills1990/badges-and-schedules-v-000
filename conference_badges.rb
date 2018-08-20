@@ -14,8 +14,10 @@ def assign_rooms(attendees)
   new_messages = []
   index_counter = 1
   attendees.each do |name|
-    new_messages << "Hello, #{name}! You'll be assigned to room number #{index_counter}!"
+    new_messages << "Hello, #{name}! You'll be assigned to room #{index_counter}!"
     index_counter += 1
   end
   return new_messages
 end
+
+
