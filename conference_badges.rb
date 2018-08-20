@@ -20,11 +20,11 @@ def assign_rooms(attendees)
   return new_messages
 end
 
-def printer
+def printer(attendees)
   counter = 0
   attendees.each do
-    puts batch_badge_creator[counter]
-    puts assign_rooms[counter]
+    puts batch_badge_creator(attendees)[counter]
+    puts assign_rooms(attendees)[counter]
     counter += 1
   end
 end
