@@ -19,5 +19,3 @@ def assign_rooms(attendees)
   end
   return new_messages
 end
-
-
